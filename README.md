@@ -28,24 +28,27 @@ SERPER_API_KEY = "# Replace with your Serper.dev API key"
 # Update the "How It Works" section with separate lines for clarity
 
 readme_content_updated = readme_content.replace(
-    "## 🧠 How It Works\n
-    \n- Loads the LLaMA 3 model using Hugging Face's pipeline
-    \n- Initializes a LangChain agent with two tools:\n  - 
-    **Search**: Fetches web results using Serper.dev\n
-    - **Python**: Executes code using PythonREPLTool\n
-    - Uses `ConversationBufferMemory` to keep dialogue context\n
-    - Agent type: `CONVERSATIONAL_REACT_DESCRIPTION`\n
-    - Handles output parsing issues with `handle_parsing_errors=True`",
-    "## 🧠 How It Works\n\n"
-    "- Loads **LLaMA-3** model using HuggingFace pipeline\n"
-    "- Sets up **LangChain agent** with two tools:\n"
-    "  - **Search**: Uses Serper.dev to fetch web results\n"
-    "  - **Python**: Executes code using PythonREPLTool\n"
-    "- Uses **ConversationBufferMemory** for contextual replies\n"
-    "- Agent type: `CONVERSATIONAL_REACT_DESCRIPTION`\n"
-    "- Handles output parsing errors with `handle_parsing_errors=True`\n"
-    "- Responds with structured, informative answers"
+    """## 🧠 How It Works
+
+- Loads the LLaMA 3 model using Hugging Face's pipeline
+- Initializes a LangChain agent with two tools:
+  - **Search**: Fetches web results using Serper.dev
+  - **Python**: Executes code using PythonREPLTool
+- Uses `ConversationBufferMemory` to keep dialogue context
+- Agent type: `CONVERSATIONAL_REACT_DESCRIPTION`
+- Handles output parsing issues with `handle_parsing_errors=True`""",
+    """## 🧠 How It Works
+
+- Loads **LLaMA-3** model using HuggingFace pipeline  
+- Sets up **LangChain agent** with two tools:  
+  - **Search**: Uses Serper.dev to fetch web results  
+  - **Python**: Executes code using PythonREPLTool  
+- Uses **ConversationBufferMemory** for contextual replies  
+- Agent type: `CONVERSATIONAL_REACT_DESCRIPTION`  
+- Handles output parsing errors with `handle_parsing_errors=True`  
+- Responds with structured, informative answers"""
 )
+
 
 # Save updated README
 updated_path = "/mnt/data/README_updated.md"

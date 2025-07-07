@@ -45,13 +45,13 @@ Responds with structured, informative answers
 
 
 🧪 Dependencies
-transformers
-torch
-langchain
-langchain-experimental
-huggingface_hub
-llama-cpp-python
-serper.dev
-accelerate
-requests
-google-search-results
+# transformers
+# torch
+# langchain
+# langchain-experimental
+# huggingface_hub
+# llama-cpp-python
+# serper.dev
+# accelerate
+# requests
+# google-search-results

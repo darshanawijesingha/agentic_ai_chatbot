@@ -28,7 +28,14 @@ SERPER_API_KEY = "# Replace with your Serper.dev API key"
 # Update the "How It Works" section with separate lines for clarity
 
 readme_content_updated = readme_content.replace(
-    "## 🧠 How It Works\n\n- Loads the LLaMA 3 model using Hugging Face's pipeline\n- Initializes a LangChain agent with two tools:\n  - **Search**: Fetches web results using Serper.dev\n  - **Python**: Executes code using PythonREPLTool\n- Uses `ConversationBufferMemory` to keep dialogue context\n- Agent type: `CONVERSATIONAL_REACT_DESCRIPTION`\n- Handles output parsing issues with `handle_parsing_errors=True`",
+    "## 🧠 How It Works\n
+    \n- Loads the LLaMA 3 model using Hugging Face's pipeline
+    \n- Initializes a LangChain agent with two tools:\n  - 
+    **Search**: Fetches web results using Serper.dev\n
+    - **Python**: Executes code using PythonREPLTool\n
+    - Uses `ConversationBufferMemory` to keep dialogue context\n
+    - Agent type: `CONVERSATIONAL_REACT_DESCRIPTION`\n
+    - Handles output parsing issues with `handle_parsing_errors=True`",
     "## 🧠 How It Works\n\n"
     "- Loads **LLaMA-3** model using HuggingFace pipeline\n"
     "- Sets up **LangChain agent** with two tools:\n"

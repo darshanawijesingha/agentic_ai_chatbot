@@ -1,5 +1,5 @@
 # agentic_ai_chatbot
-chat with ai without logging 
+chat with ai without logging by jupyter notebook
 
 
 pip install --upgrade pip
